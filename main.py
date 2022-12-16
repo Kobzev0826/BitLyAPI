@@ -17,8 +17,7 @@ if __name__ == '__main__':
     print(f"Error: {e} \n no token in system environment")
     sys.exit()
 
-  link_for_check = app_args.link#input("Enter your link: ")
-
+  link_for_check = app_args.link
   try:
     parsed_link = urlparse(link_for_check)
     link = f'{parsed_link.netloc}{parsed_link.path}'

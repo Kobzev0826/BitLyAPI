@@ -7,7 +7,9 @@
 `python main.py <link>`, где `<link>` - аргумент ссылка для проверки.\
 __Примеры запуска программы__:
  1. `python main.py https://www.ya.ru` __Вывод__ - `Битлинк https://bit.ly/3Pv1joU`
- 2. `python main.py https://bit.ly/3Pv1joU` __Вывод__ - `переходов по ссылке 0`
+ 2. `python main.py https://bit.ly/3Pv1joU` __Вывод__ - `переходов по ссылке 0`\
+![image](https://user-images.githubusercontent.com/93667972/208039048-830b3c8e-e16c-4580-8a83-a09a364023a2.png)
+
 
 # Необходимое для работы
 ## устаноить все зависимости

@@ -23,7 +23,7 @@ if __name__ == '__main__':
     parsed_link = urlparse(link_for_check)
     link = f'{parsed_link.netloc}{parsed_link.path}'
     if bit_ly.is_bitlink(token, link):
-      print(bit_ly.count_clicks(token, link))
+      print(f'переходов по ссылке {bit_ly.count_clicks(token, link)}')
     else:
       print(f"Битлинк {bit_ly.get_short_link(token, link_for_check)}")
 
